@@ -1,0 +1,107 @@
+
+---
+ar_internal_metadata:
+  columns:
+  - key
+  - value
+  - created_at
+  - updated_at
+  records: 
+  - - environment
+    - development
+    - '2021-06-29 08:18:29.933325'
+    - '2021-06-29 08:18:29.933325'
+
+---
+friends:
+  columns:
+  - id
+  - first_name
+  - last_name
+  - email
+  - phone
+  - created_at
+  - updated_at
+  - user_id
+  records: 
+  - - 12
+    - Shoaib
+    - Khizer
+    - shoaib@gmail.com
+    - 111 222 333
+    - '2021-07-05 08:36:40.396862'
+    - '2021-07-05 08:36:40.396862'
+    - 
+  - - 13
+    - Huzaifa
+    - Tanveer
+    - huzaifa@devsinc.com
+    - '090078601'
+    - '2021-07-05 08:37:38.632416'
+    - '2021-07-05 08:37:38.632416'
+    - 
+  - - 14
+    - Eitsam
+    - Aslam
+    - eitsam2gmail.com
+    - 000 111 222
+    - '2021-07-05 09:47:48.250960'
+    - '2021-07-05 09:47:48.250960'
+    - 
+  - - 15
+    - Zumair
+    - Tahir
+    - zumair@gmail.com
+    - 777 888 999
+    - '2021-07-05 09:48:10.375274'
+    - '2021-07-05 09:48:10.375274'
+    - 
+  - - 16
+    - Shoaib
+    - Khizer
+    - shoaib@gmail.com
+    - 000 111 222
+    - '2021-07-06 12:30:22.146686'
+    - '2021-07-06 12:30:22.146686'
+    - 3
+
+---
+users:
+  columns:
+  - id
+  - email
+  - encrypted_password
+  - reset_password_token
+  - reset_password_sent_at
+  - remember_created_at
+  - created_at
+  - updated_at
+  - confirmation_token
+  - confirmed_at
+  - confirmation_sent_at
+  - unconfirmed_email
+  records: 
+  - - 2
+    - bcsf17a536@pucit.edu.pk
+    - "$2a$12$FskSRAVPc.DpryxYY0i1NuTAb5Vu/VwbbF6pU8Mb7iUM0Pg6WsyJ6"
+    - 
+    - 
+    - 
+    - '2021-07-05 14:37:38.680744'
+    - '2021-07-05 14:37:53.758958'
+    - XUzAL43QWoRz1GazmX77
+    - '2021-07-05 14:37:53.758643'
+    - '2021-07-05 14:37:38.680800'
+    - 
+  - - 3
+    - asim003khalid@gmail.com
+    - "$2a$12$yVcnjUU4wZHGH/rS/daosOzTg7aZM4kff5lLvUEbchYGoyVgJOUj."
+    - 
+    - 
+    - 
+    - '2021-07-06 12:28:28.771823'
+    - '2021-07-06 12:29:28.957104'
+    - JN8GTiZcUKmoyxCVjnWz
+    - '2021-07-06 12:29:28.956829'
+    - '2021-07-06 12:28:28.771930'
+    - 
