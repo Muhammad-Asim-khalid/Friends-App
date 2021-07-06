@@ -1,24 +1,23 @@
-# README
+# Friends App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is used to make list of your Friends.
 
-Things you may want to cover:
+##### Prerequisites
 
-* Ruby version
+The setups steps expect following tools installed on the system.
 
-* System dependencies
+- Github
+- Ruby [2.4.0](https://github.com/organization/project-name/blob/master/.ruby-version#L1)
+- Rails [5.0.2](https://github.com/organization/project-name/blob/master/Gemfile#L12)
+- Add environment_variables.yml file in config directory:
 
-* Configuration
+     development:
+      GMAIL_USERNAME: your_username
+      GMAIL_PASSWORD: your_password
+      
+##### To run this project
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Run bundle install 
+- Run rails g devise:install
+- Run rails db:migrate
+- Run rails server
