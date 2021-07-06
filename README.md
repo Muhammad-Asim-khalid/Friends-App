@@ -7,6 +7,7 @@ This project is used to make list of your Friends.
 The setups steps expect following tools installed on the system.
 
 - Github
+- Postgres
 - Ruby [2.4.0](https://github.com/organization/project-name/blob/master/.ruby-version#L1)
 - Rails [5.0.2](https://github.com/organization/project-name/blob/master/Gemfile#L12)
 - Add environment_variables.yml file in config directory:
